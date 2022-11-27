@@ -1,0 +1,298 @@
+.home-main-container {
+  width: 100%;
+  min-height: 120vh;
+  max-height: 200vh;
+  background: url("./Images/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.logo-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  img {
+    width: 130px;
+    height: auto;
+    margin-top: 2em;
+  }
+}
+
+.parent-input-container {
+  width: 80%;
+  margin: 3em auto;
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mailbox-child1 {
+  width: 48%;
+}
+
+.mailbox-child2 {
+  width: 48%;
+}
+
+input {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 1.5em 2em;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 12px #00000026;
+  border-radius: 35px;
+  opacity: 0.9;
+  border: none;
+  outline: none;
+}
+
+.inputparent-mailchild1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputparent-mailchild2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.labeltext {
+  display: flex;
+  margin-top: 1.8em;
+  margin-bottom: 1em;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.radioinput {
+  padding: 0em !important;
+  width: 20%;
+  margin-left: 0.5em;
+  background: unset !important;
+  box-shadow: unset !important;
+}
+
+.radiotext {
+  width: 40%;
+}
+
+span {
+  color: #ffffff;
+}
+
+.textcolor {
+  color: #ffffff;
+}
+
+.input-fileds-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+
+  .input-fileds-button1 {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+    background: transparent
+      linear-gradient(
+        151deg,
+        #06c9e8 0%,
+        #06b0db 19%,
+        #0873bc 59%,
+        #0b2f9a 100%
+      )
+      0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    opacity: 1;
+    letter-spacing: 0.63px;
+    color: #ffffff;
+  }
+
+  .input-fileds-button1:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
+
+  .input-fileds-button2 {
+    width: 15%;
+    margin-left: 1em;
+    margin-right: 1em;
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+    letter-spacing: 0.63px;
+    color: #ffffff;
+  }
+
+  .input-fileds-button2:hover {
+    opacity: 80%;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .home-main-container {
+    width: 100%;
+    min-height: 120vh;
+    max-height: 200vh;
+  }
+
+  .logo-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    img {
+      width: 130px;
+      height: auto;
+      margin-top: 2em;
+    }
+  }
+  .parent-input-container {
+    width: 80%;
+    margin: 1em auto;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .mailbox-child1 {
+    width: 90%;
+  }
+
+  .mailbox-child2 {
+    width: 90%;
+  }
+
+  input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 1.5em 1em;
+  }
+
+  .inputparent-mailchild1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inputparent-mailchild2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .labeltext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    justify-content: space-around;
+    align-items: center;
+    word-spacing: 0.2em;
+  }
+
+  .radioinput {
+    width: 10%;
+    margin-left: 2em;
+  }
+  .radiotext {
+    width: 40%;
+  }
+
+  .input-fileds-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+
+    .input-fileds-button1 {
+      width: 80%;
+      margin-left: 1em;
+      margin-right: 1em;
+      border-radius: 40px;
+      opacity: 1;
+    }
+
+    .input-fileds-button2 {
+      width: 80%;
+      margin-left: 1em;
+      margin-right: 1em;
+      border-radius: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .parent-input-container {
+    width: 100%;
+    margin: 1em auto;
+  }
+
+  .labeltext {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    justify-content: space-around;
+    align-items: revert;
+    word-spacing: 0.2em;
+  }
+
+  .radioinput {
+    width: 10%;
+    margin-left: 2em;
+  }
+  .radiotext {
+    width: 100%;
+    margin-left: 2em;
+  }
+
+  .textcolor {
+    color: #ffffff;
+    text-align: left;
+    margin-left: 1em;
+  }
+
+  .input-fileds-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+
+    .input-fileds-button1 {
+      width: 80%;
+      margin-left: 1em;
+      margin-right: 1em;
+      border-radius: 40px;
+      opacity: 1;
+    }
+
+    .input-fileds-button2 {
+      width: 80%;
+      margin-left: 1em;
+      margin-right: 1em;
+      border-radius: 40px;
+    }
+  }
+}
